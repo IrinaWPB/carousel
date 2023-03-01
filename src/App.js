@@ -1,12 +1,14 @@
 import React from "react";
-import "./App.css";
-import Carousel from "./Carousel";
+import TodoList from "./TodoList";
 
 function App() {
   return (
-    <div className="App">
-      <Carousel />
-    </div>
+    <React.StrictMode>
+      <div className="App">
+         <TodoList />
+      </div>
+    </React.StrictMode>
+    
   );
 }
 
